@@ -1,4 +1,4 @@
-FROM tomcat:8.5.8-jre8-alpine
+FROM tomcat:8.0.39-jre7-alpine
 
 ADD dubbo-admin-2.5.4.war /usr/local/tomcat/webapps/ROOT.war
 
